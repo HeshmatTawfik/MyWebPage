@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82c0b381-3007-4522-93a8-e8e20024e46a" name="Default" comment="" />
+    <list default="true" id="82c0b381-3007-4522-93a8-e8e20024e46a" name="Default" comment="MyLoginPage">
+      <change beforePath="$PROJECT_DIR$/../MyLoginWeb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MyLoginWeb/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -224,7 +226,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/codeWars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study/java course/Spring/demo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -374,12 +376,20 @@
       <updated>1518109490697</updated>
       <workItem from="1518109495070" duration="18394000" />
       <workItem from="1518202001790" duration="12016000" />
-      <workItem from="1518248224644" duration="279000" />
+      <workItem from="1518248224644" duration="1945000" />
     </task>
+    <task id="LOCAL-00001" summary="MyLoginPage">
+      <created>1518248569295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518248569296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30689000" />
+    <option name="totallyTimeSpent" value="32355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -454,6 +464,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MyLoginPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyLoginPage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
