@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:D:/MyLoginWeb/web/WEB-INF\new_file/" uuid="73e76b8b-3534-481d-a2b7-cf6d2d606491">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/../MyLoginWeb/web/WEB-INF\new_file/</jdbc-url>
+      <default-dialect>MySQL</default-dialect>
+    </data-source>
+  </component>
+</project>

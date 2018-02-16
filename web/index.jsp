@@ -6,30 +6,26 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<html>
 <head>
+    <meta charset="utf-8">
+    <title>transparent Login Form</title>
+    <link rel="stylesheet" href="style.css">
 
-    <title>login page</title>
-
-    <title>login form</title>
 </head>
-<body style="background-color:rgba(26,87,219,0.8);">
+<body>
 
-    <div style="text-align:center;">
-
-    <form method="post" action="login"  width="wrap_content" height="wrap_content">
-        <p align="center">
-    <font face="Georgia" color="BlACK"> Email ID:</font><input type="text" name="email" /><br/>
-        </p>
-        <p align="center">
-    Password:<input type="PASSWORD" name="pass" /><br/>
-        </p>
-        <p align="center">
-    <input type="submit" value="login" />
-        </p>
-
-</form >
+<div class="loginBox">
+   <img src="adminIcon.jpg" class="user">
+    <h2>Log In</h2>
+    <form method="post" action="login">
+        <p>Email</p>
+        <input type="text" name="email" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" name="pass" placeholder="••••••">
+        <input type="submit" name="" value="Sign In">
+        <a href="#">Forget Password</a>
+    </form>
 </div>
-
 </body>
 </html>

@@ -8,6 +8,9 @@ public class Welcome extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        RequestDispatcher rs=request.getRequestDispatcher("welcome.jsp");
+        rs.include(request,response);
+
         String username = request.getParameter("email");
 
         response.setContentType("text/html;charset=UTF-8");

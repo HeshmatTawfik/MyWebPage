@@ -13,12 +13,13 @@
     <title>login form</title>
 </head>
 <body style="background-color:rgba(26,87,219,0.8);">
-<form method="post" action="login">
-    <font face="Georgia" color="BlACK"> Email ID:</font><input type="text" name="email" /><br/>
-    Password:<input type="PASSWORD" name="pass" /><br/>
-    <input type="submit" value="login" />
-
+<a href="${pageContext.request.contextPath}/AddUsers">Login</a>
+<form method="POST" action="/InsertingData">
+    <p>Enter Name :
+        <input type="text"  name="username" size="20"></p>
+    <p>Enter Password :
+        <input type="password" name="password" size="20"></p>
+    <input type="submit" value="Submit" name="B1"></p>
 </form>
-
 </body>
 </html>
