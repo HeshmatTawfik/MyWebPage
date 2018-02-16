@@ -17,6 +17,7 @@ static Map<String,String>map2=new HashMap<String, String>();
         map.put("ali","12345");
         map.put("Mohamed","12345");
         map.put("eujine","eujine");
+        map.put("david","david");
 
         if(map2.containsKey(email)&&map2.containsValue(pass)){
 
