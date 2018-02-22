@@ -81,7 +81,7 @@
         </div>
         <p class="w3-wide">Web Design</p>
         <div class="w3-white">
-            <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+            <div class="w3-dark-grey" style="height:28px;width:95%"></div>
         </div>
         <p class="w3-wide">Photoshop</p>
         <div class="w3-white">

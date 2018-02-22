@@ -58,3 +58,12 @@ body{
     cursor: pointer;
     border-radius: 20px;
 }
+.home
+{
+    margin: 70px;
+
+    padding: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+

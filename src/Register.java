@@ -13,8 +13,10 @@ import java.util.Map;
 @WebServlet("/Adminn.jsp")
 
 public class Register extends HttpServlet {
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+
 
 
 
@@ -24,7 +26,7 @@ public class Register extends HttpServlet {
         Validate.map.put(username,pass);
         PrintWriter out=response.getWriter();
 
-      if(username!=""&&pass!=""){
+       if(username!=""&&pass!=""){
 
 
           RequestDispatcher rs=request.getRequestDispatcher("Registration.jsp");
@@ -35,8 +37,9 @@ public class Register extends HttpServlet {
           out.println("<pre></pre>"+"All users:"+"<pre></pre>"+Validate.map.keySet());
 
       }
+
       else{
-          out.println("Field Cant be empty");
+          out.println("Field Cant be empty or its already exist");
           RequestDispatcher rs=request.getRequestDispatcher("Registration.jsp");
           rs.include(request,response);
       }

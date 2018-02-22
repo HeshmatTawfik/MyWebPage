@@ -21,9 +21,14 @@
     <input type="text" name="pass"/><br/>
 
     <input type="submit" value="add" />
+
 </form>
 
 </div>
+<pre></pre>
+
+<div class="home"><li><a href="AdminDashboard.jsp">home</a></li></div>
+
 </body>
 <pre></pre>
 <body style="font-weight: bold" style="font: ">
